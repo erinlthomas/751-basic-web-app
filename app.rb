@@ -5,7 +5,7 @@ require 'erubis'
 class Handler
 
   def initialize
-    @data =  Hash.new {|hash,value| hash[value] = 0 }
+    @data =  Hash.new (0)
   end
 
   def call(env)

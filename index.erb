@@ -26,7 +26,7 @@
     </form>
     <ul>
 
-      <% data.each do |name, count| %>
+      <% data.sort.each do |name, count| %>
       <li><%= name %> visited <%= count %> times!</li>
       <% end %>
     </ul>

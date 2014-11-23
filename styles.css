@@ -1,3 +1,7 @@
-h1 {
+body {
     font-family: Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: square;
 }
